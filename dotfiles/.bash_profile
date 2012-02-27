@@ -8,3 +8,6 @@ if [ -f /usr/local/etc/bash_completion ]; then
   . /usr/local/etc/bash_completion
 fi
 
+if [ -f $HOME/.bash_profile.local ]; then
+  . $HOME/.bash_profile.local
+fi
