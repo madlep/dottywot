@@ -1,3 +1,5 @@
+export PATH=$HOME/bin:$PATH
+
 [[ $- == *i* ]]   &&   . $HOME/.git-prompt/git-prompt.sh
 
 export GIT_EDITOR="mvim -f"
