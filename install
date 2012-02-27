@@ -1,0 +1,25 @@
+#!/usr/bin/env ruby
+
+dotfile_dir = File.join(File.dirname(__FILE__), "dotfiles")
+dotfiles = Dir.glob("#{dotfile_dir}/.*") - ["#{dotfile_dir}/.","#{dotfile_dir}/.."]
+
+dotfiles.each do |dotfile|
+  dotfile = File.expand_path(dotfile)
+  target_file = File.join(Dir.home, File.basename(dotfile))
+  puts "#{dotfile} -> #{target_file}"
+  exist = File.exists?(target_file)
+  symlink = File.symlink?(target_file)
+  puts "- exists? #{exist}"
+  puts "- already symlinked? #{symlink}"
+  if !exist || symlink
+    if symlink
+      puts "removing old symlink"
+      File.delete(target_file) 
+    end
+    puts "symlinking to dotfile"
+    File.symlink(dotfile, target_file)
+  else
+    puts "leaving existing file alone"
+  end
+  puts 
+end
