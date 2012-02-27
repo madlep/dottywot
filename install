@@ -6,7 +6,7 @@ dotfiles = Dir.glob("#{dotfile_dir}/.*") - ["#{dotfile_dir}/.","#{dotfile_dir}/.
 dotfiles.each do |dotfile|
   dotfile = File.expand_path(dotfile)
   target_file = File.join(Dir.home, File.basename(dotfile))
-  puts "#{dotfile} -> #{target_file}"
+  puts File.basename(dotfile)
   exist = File.exists?(target_file)
   symlink = File.symlink?(target_file)
   puts "- exists? #{exist}"
