@@ -1,0 +1,20 @@
+[alias]
+	br = branch -a
+	co = checkout
+	st = status
+[apply]
+	ignorewhitespace = change
+[color]
+	branch = auto
+	grep = auto
+	diff = auto
+	interactive = auto
+	status = auto
+[core]
+	editor = mate -w
+	whitespace = tab-in-indent,tabwidth=2
+[user]
+	email = julian.doherty.ml@gmail.com
+	name = madlep
+[github]
+	user = madlep
