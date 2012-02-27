@@ -31,3 +31,6 @@
 [submodule "dotfiles/.vim/bundle/tabular"]
 	path = dotfiles/.vim/bundle/tabular
 	url = https://github.com/godlygeek/tabular.git
+[submodule "dotfiles/.git-prompt"]
+	path = dotfiles/.git-prompt
+	url = git://github.com/lvv/git-prompt.git
