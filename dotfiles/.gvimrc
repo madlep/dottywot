@@ -6,7 +6,7 @@ highlight StatusLineNC guifg=#333333 guibg=#444444
 "Invisible character colors
 highlight NonText guifg=#4a4a59
 highlight SpecialKey guifg=#4a4a59
-set guifont=Bitstream\ Vera\ Sans\ Mono:h12
+set guifont=Menlo\ Regular:h14
 if has("gui_macvim")
   set macmeta
   macmenu &File.New\ Tab key=<nop>
