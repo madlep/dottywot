@@ -34,3 +34,9 @@
 [submodule "dotfiles/.git-prompt"]
 	path = dotfiles/.git-prompt
 	url = git://github.com/lvv/git-prompt.git
+[submodule "dotfiles/.vim/bundle/vim-matchit"]
+	path = dotfiles/.vim/bundle/vim-matchit
+	url = https://github.com/edsono/vim-matchit
+[submodule "dotfiles/.vim/bundle/vim-ruby-refactoring"]
+	path = dotfiles/.vim/bundle/vim-ruby-refactoring
+	url = https://github.com/ecomba/vim-ruby-refactoring.git
