@@ -15,4 +15,7 @@ fi
 if [ -f $HOME/.bash_profile.local ]; then
   . $HOME/.bash_profile.local
 fi
+
 eval "$(rbenv init -)"
+
+ssh-add
