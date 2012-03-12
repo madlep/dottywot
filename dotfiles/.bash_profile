@@ -1,3 +1,5 @@
+set -o vi
+
 export PATH=$HOME/bin:$PATH
 
 [[ $- == *i* ]]   &&   . $HOME/.git-prompt/git-prompt.sh
