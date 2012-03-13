@@ -7,6 +7,7 @@ export PATH=$HOME/bin:$PATH
 export GIT_EDITOR="mvim -f"
 export SVN_EDITOR="mvim -f"
 export EDITOR="mvim -f"
+export NODE_PATH=/usr/local/lib/node_modules
 
 if [ -f /usr/local/etc/bash_completion ]; then
   . /usr/local/etc/bash_completion
