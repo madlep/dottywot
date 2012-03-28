@@ -19,4 +19,3 @@ fi
 
 eval "$(rbenv init -)"
 
-ssh-add
