@@ -43,3 +43,9 @@
 [submodule "dotfiles/.vim/bundle/dbext.vim"]
 	path = dotfiles/.vim/bundle/dbext.vim
 	url = https://github.com/vim-scripts/dbext.vim.git
+[submodule "dotfiles/.vim/bundle/vim-conque"]
+	path = dotfiles/.vim/bundle/vim-conque
+	url = https://github.com/rson/vim-conque.git
+[submodule "dotfiles/.vim/bundle/vim-ruby-conque"]
+	path = dotfiles/.vim/bundle/vim-ruby-conque
+	url = https://github.com/skwp/vim-ruby-conque.git
