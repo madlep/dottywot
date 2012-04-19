@@ -47,3 +47,5 @@ let macvim_skip_cmd_opt_movement=1
 
 " coffeescript stuff
 au BufNewFile,BufReadPost *.coffee setl foldmethod=indent nofoldenable
+
+let g:ruby_conque_rspec_command='bundle exec spec'
