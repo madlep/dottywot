@@ -45,8 +45,8 @@ set statusline=%F%m%r%h%w[%L][%{&ff}]%y[%p%%][%04l,%04v]
 runtime macros/matchit.vim
 let macvim_skip_cmd_opt_movement=1
 
-" coffeescript stuff
 au BufNewFile,BufReadPost *.coffee setl foldmethod=indent nofoldenable
+au BufNewFile,BufReadPost *.as set filetype=actionscript
 
 let g:ruby_conque_rspec_command='bundle exec spec'
 set foldmethod=syntax
