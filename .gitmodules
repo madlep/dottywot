@@ -55,3 +55,6 @@
 [submodule "dotfiles/.vim/bundle/elixir-lang"]
 	path = dotfiles/.vim/bundle/elixir-lang
 	url = https://github.com/elixir-lang/vim-elixir.git
+[submodule "dotfiles/.vim/bundle/actionscript.vim"]
+	path = dotfiles/.vim/bundle/actionscript.vim
+	url = https://github.com/vim-scripts/actionscript.vim--Leider.git
