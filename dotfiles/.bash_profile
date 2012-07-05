@@ -24,13 +24,15 @@ eval "$(rbenv init -)"
 # run this occasionally to find more stuff to add here...
 # history | cut -c8- | sort | uniq -c | sort -rn | head
 alias lah='ls -lah'
-alias la='ls -la'
+alias ll='ls -la'
 alias lart='ls -lart'
 
 # git stuff
-alias gs='git status'
-alias gd='git diff'
-alias gsp='git smart-pull'
-alias gsl='git smart-log'
 alias ga='git add'
+alias gb='git branch'
+alias gco='git checkout'
 alias gcv='git commit -v'
+alias gd='git diff'
+alias gs='git status'
+alias gsl='git smart-log'
+alias gsp='git smart-pull'
