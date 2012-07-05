@@ -36,3 +36,11 @@ alias gd='git diff'
 alias gs='git status'
 alias gsl='git smart-log'
 alias gsp='git smart-pull'
+
+# change into dir and do a listing straight away
+function c {
+  cd $1
+  if [ $? == 0 ]; then
+    ls -la
+  fi
+}
