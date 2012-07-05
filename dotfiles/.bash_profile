@@ -26,7 +26,6 @@ eval "$(rbenv init -)"
 alias lah='ls -lah'
 alias ll='ls -la'
 alias lart='ls -lart'
-alias c.='cd ..'
 
 # git stuff
 alias ga='git add'
@@ -40,8 +39,12 @@ alias gsp='git smart-pull'
 
 # change into dir and do a listing straight away
 function c {
-  cd $1
-  if [ $? == 0 ]; then
-    ls -la
+  if [ -z $1 ]; then
+    cd ..
+  else
+    cd $1
+    if [ $? == 0 ]; then
+      ls -la
+    fi
   fi
 }
