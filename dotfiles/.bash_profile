@@ -26,6 +26,7 @@ eval "$(rbenv init -)"
 alias lah='ls -lah'
 alias ll='ls -la'
 alias lart='ls -lart'
+alias c.='cd ..'
 
 # git stuff
 alias ga='git add'
