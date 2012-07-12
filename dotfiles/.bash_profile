@@ -40,11 +40,14 @@ alias gsp='git smart-pull'
 # change into dir and do a listing straight away
 function c {
   if [ -z $1 ]; then
+    # if no arg given, just go up a dir
     cd ..
   else
     cd $1
-    if [ $? == 0 ]; then
-      ls -la
-    fi
+  fi
+
+  # if we changed dir successfully, list contents
+  if [ $? == 0 ]; then
+    ls -la
   fi
 }
