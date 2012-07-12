@@ -24,7 +24,7 @@ eval "$(rbenv init -)"
 # run this occasionally to find more stuff to add here...
 # history | cut -c8- | sort | uniq -c | sort -rn | head
 alias lah='ls -lah'
-alias ll='ls -la'
+alias l='ls -la'
 alias lart='ls -lart'
 
 # git stuff
