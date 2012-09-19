@@ -14,7 +14,7 @@
 	editor = mate -w
 	whitespace = tab-in-indent,tabwidth=2
 [user]
-	email = julian.doherty.ml@gmail.com
+	email = madlep@madlep.com
 	name = madlep
 [github]
 	user = madlep
