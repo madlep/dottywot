@@ -43,7 +43,7 @@ function c {
     # if no arg given, just go up a dir
     cd ..
   else
-    cd $1
+    cd "$1"
   fi
 
   # if we changed dir successfully, list contents
