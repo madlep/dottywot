@@ -37,6 +37,10 @@ alias gs='git status'
 alias gsl='git smart-log'
 alias gsp='git smart-pull'
 
+# bundle stuff
+alias be='bundle exec'
+alias ber='bundle exec rake'
+
 # change into dir and do a listing straight away
 function c {
   if [ -z $1 ]; then
