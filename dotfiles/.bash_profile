@@ -21,6 +21,8 @@ fi
 
 eval "$(rbenv init -)"
 
+[[ -s $HOME/.tmuxinator/scripts/tmuxinator ]] && source $HOME/.tmuxinator/scripts/tmuxinator
+
 # run this occasionally to find more stuff to add here...
 # history | cut -c8- | sort | uniq -c | sort -rn | head
 alias lah='ls -lah'
