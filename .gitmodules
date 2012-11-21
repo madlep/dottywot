@@ -78,3 +78,6 @@
 	path = dotfiles/.vim/bundle/actionscript.vim
 	url = https://github.com/vim-scripts/actionscript.vim--Leider.git
 	ignore = untracked
+[submodule "dotfiles/.vim/bundle/Puppet-Syntax-Highlighting"]
+	path = dotfiles/.vim/bundle/Puppet-Syntax-Highlighting
+	url = git://github.com/vim-scripts/Puppet-Syntax-Highlighting.git

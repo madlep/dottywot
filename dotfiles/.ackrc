@@ -4,6 +4,7 @@
 --type-add=css=.sass
 --type-set=elixir=.ex,.exs
 --type-set=cucumber=.feature
+--type-set=puppet=.pp
 --ignore-dir=vendor
 --ignore-dir=log
 --ignore-dir=tmp
