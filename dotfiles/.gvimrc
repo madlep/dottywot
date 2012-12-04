@@ -1,4 +1,3 @@
-colorscheme slate
 highlight CursorLine  term=underline  guibg=#663333  cterm=underline
 highlight CursorColumn guibg=#663333
 highlight StatusLine guifg=#ffffff guibg=#006600
