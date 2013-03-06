@@ -54,10 +54,6 @@
 	path = dotfiles/.vim/bundle/vim-ruby-refactoring
 	url = https://github.com/ecomba/vim-ruby-refactoring.git
 	ignore = untracked
-[submodule "dotfiles/.vim/bundle/dbext.vim"]
-	path = dotfiles/.vim/bundle/dbext.vim
-	url = https://github.com/vim-scripts/dbext.vim.git
-	ignore = untracked
 [submodule "dotfiles/.vim/bundle/vim-conque"]
 	path = dotfiles/.vim/bundle/vim-conque
 	url = https://github.com/rson/vim-conque.git
