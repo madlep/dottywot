@@ -2,10 +2,6 @@
 	path = dotfiles/.vim/bundle/command-t
 	url = git://git.wincent.com/command-t.git
 	ignore = untracked
-[submodule "dotfiles/.vim/bundle/sweet-rspec-vim"]
-	path = dotfiles/.vim/bundle/sweet-rspec-vim
-	url = https://github.com/duskhacker/sweet-rspec-vim.git
-	ignore = untracked
 [submodule "dotfiles/.vim/bundle/vim-bundler"]
 	path = dotfiles/.vim/bundle/vim-bundler
 	url = git://github.com/tpope/vim-bundler.git
