@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 dotfile_dir = File.join(File.dirname(__FILE__), "dotfiles")
-dotfiles = Dir.glob("#{dotfile_dir}/.*") - ["#{dotfile_dir}/.","#{dotfile_dir}/.."]
+dotfiles = Dir.glob("#{dotfile_dir}/.*") + Dir.glob("#{dotfile_dir}/*") - ["#{dotfile_dir}/.","#{dotfile_dir}/.."]
 
 dotfiles.each do |dotfile|
   dotfile = File.expand_path(dotfile)
