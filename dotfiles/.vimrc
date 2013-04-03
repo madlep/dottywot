@@ -58,3 +58,7 @@ au BufNewFile,BufReadPost *.as set filetype=actionscript
 
 let g:ruby_conque_rspec_command='bundle exec spec'
 set foldmethod=syntax
+
+nnoremap <Right> :bnext<CR>
+nnoremap <Left> :bprevious<CR>
+
