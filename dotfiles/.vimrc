@@ -61,4 +61,6 @@ set foldmethod=syntax
 
 nnoremap <Right> :bnext<CR>
 nnoremap <Left> :bprevious<CR>
+nnoremap <C-h> :tabprevious<CR>
+nnoremap <C-l> :tabnext<CR>
 
