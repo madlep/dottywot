@@ -46,14 +46,6 @@
 	path = dotfiles/.vim/bundle/vim-ruby-refactoring
 	url = https://github.com/ecomba/vim-ruby-refactoring.git
 	ignore = untracked
-[submodule "dotfiles/.vim/bundle/vim-conque"]
-	path = dotfiles/.vim/bundle/vim-conque
-	url = https://github.com/rson/vim-conque.git
-	ignore = untracked
-[submodule "dotfiles/.vim/bundle/vim-ruby-conque"]
-	path = dotfiles/.vim/bundle/vim-ruby-conque
-	url = https://github.com/skwp/vim-ruby-conque.git
-	ignore = untracked
 [submodule "dotfiles/.vim/bundle/vim-fugitive"]
 	path = dotfiles/.vim/bundle/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
@@ -61,10 +53,6 @@
 [submodule "dotfiles/.vim/bundle/elixir-lang"]
 	path = dotfiles/.vim/bundle/elixir-lang
 	url = https://github.com/elixir-lang/vim-elixir.git
-	ignore = untracked
-[submodule "dotfiles/.vim/bundle/actionscript.vim"]
-	path = dotfiles/.vim/bundle/actionscript.vim
-	url = https://github.com/vim-scripts/actionscript.vim--Leider.git
 	ignore = untracked
 [submodule "dotfiles/.vim/bundle/Puppet-Syntax-Highlighting"]
 	path = dotfiles/.vim/bundle/Puppet-Syntax-Highlighting
