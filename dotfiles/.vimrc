@@ -1,9 +1,33 @@
-call pathogen#infect()
-syntax on
+set nocompatible               " Be iMproved
+
+if has('vim_starting')
+  set runtimepath+=~/.vim/bundle/neobundle.vim/
+endif
+
+call neobundle#rc(expand('~/.vim/bundle/'))
+
+" Let NeoBundle manage NeoBundle
+NeoBundleFetch 'Shougo/neobundle.vimsyntax'
+
+NeoBundle 'kien/ctrlp.vim'
+NeoBundle 'kchmck/vim-coffee-script'
+NeoBundle 'nelstrom/vim-textobj-rubyblock'
+NeoBundle 'kana/vim-textobj-user'
+NeoBundle 'scrooloose/nerdtree'
+NeoBundle 'mileszs/ack.vim'
+NeoBundle 'godlygeek/tabular'
+NeoBundle 'tpope/vim-fugitive'
+NeoBundle 'elixir-lang/vim-elixir'
+NeoBundle 'vim-scripts/Puppet-Syntax-Highlighting'
+NeoBundle 'altercation/vim-colors-solarized'
+NeoBundle 'Valloric/YouCompleteMe'
+NeoBundle 'airblade/vim-gitgutter'
+
+filetype plugin indent on
+NeoBundleCheck
+syntax enable
 set background=dark
 colorscheme solarized
-set nocompatible
-filetype plugin indent on
 set tabstop=8
 set softtabstop=2
 set shiftwidth=2
@@ -35,7 +59,7 @@ set ruler " always show current positions along the bottom
 set showcmd " show the command being typed
 set showmatch " show matching brackets
 set sidescrolloff=10 " Keep 5 lines at the side
-set statusline=%F%m%r%h%w[%L][%{&ff}]%y[%p%%][%04l,%04v]
+"set statusline=%F%m%r%h%w[%L][%{&ff}]%y[%p%%][%04l,%04v]
 "              | | | | |  |   |      |  |     |    |
 "              | | | | |  |   |      |  |     |    + current 
 "              | | | | |  |   |      |  |     |       column
@@ -54,13 +78,3 @@ runtime macros/matchit.vim
 let macvim_skip_cmd_opt_movement=1
 
 au BufNewFile,BufReadPost *.coffee setl foldmethod=indent nofoldenable
-au BufNewFile,BufReadPost *.as set filetype=actionscript
-
-let g:ruby_conque_rspec_command='bundle exec spec'
-set foldmethod=syntax
-
-nnoremap <Right> :bnext<CR>
-nnoremap <Left> :bprevious<CR>
-nnoremap <C-h> :tabprevious<CR>
-nnoremap <C-l> :tabnext<CR>
-

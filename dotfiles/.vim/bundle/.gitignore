@@ -1,0 +1,14 @@
+.neobundle
+Puppet-Syntax-Highlighting
+YouCompleteMe
+ack.vim
+ctrlp.vim
+nerdtree
+tabular
+vim-coffee-script
+vim-colors-solarized
+vim-elixir
+vim-fugitive
+vim-gitgutter
+vim-textobj-rubyblock
+vim-textobj-user
