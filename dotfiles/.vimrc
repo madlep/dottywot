@@ -22,6 +22,7 @@ NeoBundle 'vim-scripts/Puppet-Syntax-Highlighting'
 NeoBundle 'altercation/vim-colors-solarized'
 NeoBundle 'Valloric/YouCompleteMe'
 NeoBundle 'airblade/vim-gitgutter'
+NeoBundle 'bling/vim-airline'
 
 filetype plugin indent on
 NeoBundleCheck
@@ -59,21 +60,6 @@ set ruler " always show current positions along the bottom
 set showcmd " show the command being typed
 set showmatch " show matching brackets
 set sidescrolloff=10 " Keep 5 lines at the side
-"set statusline=%F%m%r%h%w[%L][%{&ff}]%y[%p%%][%04l,%04v]
-"              | | | | |  |   |      |  |     |    |
-"              | | | | |  |   |      |  |     |    + current 
-"              | | | | |  |   |      |  |     |       column
-"              | | | | |  |   |      |  |     +-- current line
-"              | | | | |  |   |      |  +-- current % into file
-"              | | | | |  |   |      +-- current syntax in 
-"              | | | | |  |   |          square brackets
-"              | | | | |  |   +-- current fileformat
-"              | | | | |  +-- number of lines
-"              | | | | +-- preview flag in square brackets
-"              | | | +-- help flag in square brackets
-"              | | +-- readonly flag in square brackets
-"              | +-- rodified flag in square brackets
-"              +-- full path to file in the buffer
 runtime macros/matchit.vim
 let macvim_skip_cmd_opt_movement=1
 

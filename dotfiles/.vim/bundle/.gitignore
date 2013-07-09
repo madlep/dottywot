@@ -12,3 +12,4 @@ vim-fugitive
 vim-gitgutter
 vim-textobj-rubyblock
 vim-textobj-user
+vim-airline
