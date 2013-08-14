@@ -74,3 +74,4 @@ nmap k gk
 :inoremap <F5> <C-R>=strftime("%FT%T%z")<CR>
 
 au BufNewFile,BufReadPost *.coffee setl foldmethod=indent nofoldenable
+au BufNewFile,BufReadPost *.md setl ft=markdown wrap linebreak tw=80
