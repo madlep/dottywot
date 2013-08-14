@@ -61,3 +61,4 @@ function c {
   fi
 }
 
+. `brew --prefix`/etc/profile.d/z.sh
