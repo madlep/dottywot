@@ -65,4 +65,8 @@ set sidescrolloff=10 " Keep 5 lines at the side
 runtime macros/matchit.vim
 let macvim_skip_cmd_opt_movement=1
 
+" move up/down in wrapped text
+nmap j gj
+nmap k gk
+
 au BufNewFile,BufReadPost *.coffee setl foldmethod=indent nofoldenable
