@@ -23,6 +23,8 @@ NeoBundle 'altercation/vim-colors-solarized'
 NeoBundle 'Valloric/YouCompleteMe'
 NeoBundle 'airblade/vim-gitgutter'
 NeoBundle 'bling/vim-airline'
+NeoBundle 'tpope/vim-surround'
+NeoBundle 'scrooloose/syntastic'
 
 filetype plugin indent on
 NeoBundleCheck
