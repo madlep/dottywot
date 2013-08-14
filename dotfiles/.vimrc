@@ -69,4 +69,8 @@ let macvim_skip_cmd_opt_movement=1
 nmap j gj
 nmap k gk
 
+" insert current date/time
+:nnoremap <F5> "=strftime("%FT%T%z")<CR>P
+:inoremap <F5> <C-R>=strftime("%FT%T%z")<CR>
+
 au BufNewFile,BufReadPost *.coffee setl foldmethod=indent nofoldenable
