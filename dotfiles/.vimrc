@@ -65,6 +65,7 @@ set showmatch " show matching brackets
 set sidescrolloff=10 " Keep 5 lines at the side
 runtime macros/matchit.vim
 let macvim_skip_cmd_opt_movement=1
+let ruby_no_expensive=1 " speed up ruby
 
 " move up/down in wrapped text
 nmap j gj
