@@ -15,3 +15,4 @@ vim-textobj-user
 vim-airline
 syntastic
 vim-move
+vim-surround
