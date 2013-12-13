@@ -14,3 +14,4 @@ vim-textobj-rubyblock
 vim-textobj-user
 vim-airline
 syntastic
+vim-move
