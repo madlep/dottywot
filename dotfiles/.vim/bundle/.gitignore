@@ -16,3 +16,4 @@ vim-airline
 syntastic
 vim-move
 vim-surround
+vim-less

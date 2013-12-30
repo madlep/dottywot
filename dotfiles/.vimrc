@@ -26,6 +26,7 @@ NeoBundle 'bling/vim-airline'
 NeoBundle 'tpope/vim-surround'
 NeoBundle 'scrooloose/syntastic'
 NeoBundle 'matze/vim-move'
+NeoBundle 'groenewege/vim-less'
 
 filetype plugin indent on
 NeoBundleCheck
