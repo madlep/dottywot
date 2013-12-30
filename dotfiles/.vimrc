@@ -27,6 +27,8 @@ NeoBundle 'tpope/vim-surround'
 NeoBundle 'scrooloose/syntastic'
 NeoBundle 'matze/vim-move'
 NeoBundle 'groenewege/vim-less'
+NeoBundle 'junegunn/goyo.vim'
+NeoBundle 'amix/vim-zenroom2'
 
 filetype plugin indent on
 NeoBundleCheck
@@ -75,6 +77,8 @@ nmap k gk
 " insert current date/time
 :nnoremap <F5> "=strftime("%FT%T%z")<CR>P
 :inoremap <F5> <C-R>=strftime("%FT%T%z")<CR>
+
+:nnoremap <silent> <leader>z :Goyo<cr>
 
 " move plugin remap for iterm
 let g:move_key_modifier = 'C'

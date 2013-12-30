@@ -17,3 +17,5 @@ syntastic
 vim-move
 vim-surround
 vim-less
+goyo.vim
+vim-zenroom2
