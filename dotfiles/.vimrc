@@ -79,6 +79,8 @@ nmap k gk
 :inoremap <F5> <C-R>=strftime("%FT%T%z")<CR>
 
 :nnoremap <silent> <leader>z :Goyo<cr>
+:nnoremap <silent> <leader>nt :NERDTree<cr>
+:nnoremap <silent> <leader>nf :NERDTreeFind<cr>
 
 " move plugin remap for iterm
 let g:move_key_modifier = 'C'
