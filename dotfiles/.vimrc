@@ -55,7 +55,7 @@ set incsearch " BUT do highlight as you type search phrase
 set hlsearch " Highlight search results
 set laststatus=2 " always show the status line
 set list " we do want to show tabs, to ensure we get them out of my files
-set listchars=tab:▸\ ,eol:¬
+set listchars=tab:▸\ ,eol:¬,trail:✖
 set nostartofline " leave my cursor where it was
 set number " turn on line numbers
 set numberwidth=5 " we are good up to 99999 lines
