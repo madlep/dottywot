@@ -40,8 +40,6 @@ set softtabstop=2
 set shiftwidth=2
 set expandtab
 set backspace=indent,eol,start " make backspace a more flexible
-set backup " make backup files
-set backupdir=~/.vim/backup " where to put backup files
 set clipboard+=unnamed " share windows clipboard
 set directory=~/.vim/tmp " directory to place swap files in
 set fileformats=unix,dos,mac " support all three, in this order
