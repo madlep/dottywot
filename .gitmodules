@@ -1,7 +1,6 @@
 [submodule "dotfiles/.git-prompt"]
 	path = dotfiles/.git-prompt
 	url = git://github.com/lvv/git-prompt.git
-	ignore = untracked
 [submodule "dotfiles/.vim/bundle/neobundle.vim"]
 	path = dotfiles/.vim/bundle/neobundle.vim
 	url = git://github.com/Shougo/neobundle.vim
