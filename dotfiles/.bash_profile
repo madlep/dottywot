@@ -8,9 +8,9 @@ export PATH=/usr/local/sbin:$PATH
 # use macvim command line `vim`
 # alias vim="/Applications/MacVim.app/Contents/MacOS/Vim"
 
-export GIT_EDITOR="/Applications/MacVim.app/Contents/MacOS/Vim"
-export SVN_EDITOR="/Applications/MacVim.app/Contents/MacOS/Vim"
-export EDITOR="/Applications/MacVim.app/Contents/MacOS/Vim"
+export GIT_EDITOR="vim"
+export SVN_EDITOR="vim"
+export EDITOR="vim"
 export NODE_PATH=/usr/local/lib/node_modules
 export HISTFILESIZE=10000 # Record last 10,000 commands
 export HISTSIZE=10000 # Record last 10,000 commands per session
