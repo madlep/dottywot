@@ -29,6 +29,12 @@ NeoBundle 'matze/vim-move'
 NeoBundle 'groenewege/vim-less'
 NeoBundle 'junegunn/goyo.vim'
 NeoBundle 'amix/vim-zenroom2'
+NeoBundle 'sprsquish/thrift.vim'
+NeoBundle 'vim-scripts/csv.vim'
+NeoBundle 'elzr/vim-json'
+NeoBundle 'pangloss/vim-javascript'
+NeoBundle 'mxw/vim-jsx'
+
 
 filetype plugin indent on
 NeoBundleCheck
@@ -85,3 +91,4 @@ let g:move_key_modifier = 'C'
 
 au BufNewFile,BufReadPost *.coffee setl foldmethod=indent nofoldenable
 au BufNewFile,BufReadPost *.md setl ft=markdown wrap linebreak tw=80
+au BufNewFile,BufReadPost *.thrift setl ft=thrift
