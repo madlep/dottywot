@@ -19,3 +19,8 @@ vim-surround
 vim-less
 goyo.vim
 vim-zenroom2
+csv.vim
+thrift.vim
+vim-javascript
+vim-json
+vim-jsx
