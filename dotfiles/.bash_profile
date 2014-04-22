@@ -28,6 +28,8 @@ fi
 
 eval "$(rbenv init -)"
 
+if which exenv > /dev/null; then eval "$(exenv init -)"; fi
+
 [[ -s $HOME/.tmuxinator/scripts/tmuxinator ]] && source $HOME/.tmuxinator/scripts/tmuxinator
 
 # run this occasionally to find more stuff to add here...
