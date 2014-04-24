@@ -55,4 +55,5 @@ function c {
   fi
 }
 
+# smart fuzzy dir changing
 [[ -s `brew --prefix`/etc/profile.d/z.sh ]] && . `brew --prefix`/etc/profile.d/z.sh
