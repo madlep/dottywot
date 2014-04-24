@@ -66,4 +66,4 @@ function c {
   fi
 }
 
-. `brew --prefix`/etc/profile.d/z.sh
+[[ -s `brew --prefix`/etc/profile.d/z.sh ]] && . `brew --prefix`/etc/profile.d/z.sh
