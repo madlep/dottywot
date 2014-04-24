@@ -20,7 +20,7 @@ if [ -f $HOME/.bash_profile.local ]; then
   . $HOME/.bash_profile.local
 fi
 
-eval "$(rbenv init -)"
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 if which exenv > /dev/null; then eval "$(exenv init -)"; fi
 
