@@ -1,3 +1,4 @@
+[[ -s /opt/boxen/env.sh ]] && source /opt/boxen/env.sh
 set -o vi
 
 ulimit -n 4096
