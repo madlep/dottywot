@@ -17,8 +17,8 @@ export HISTFILESIZE=10000 # Record last 10,000 commands
 export HISTSIZE=10000 # Record last 10,000 commands per session
 export VAGRANT_DEFAULT_PROVIDER=vmware_fusion
 
-if [ -f /usr/local/etc/bash_completion ]; then
-  . /usr/local/etc/bash_completion
+if [ -f `brew --prefix`/etc/bash_completion ]; then
+  . `brew --prefix`/etc/bash_completion
 fi
 
 if [ -f $HOME/.bash_profile.local ]; then
