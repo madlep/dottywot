@@ -21,5 +21,13 @@ dotfiles.each do |dotfile|
   else
     puts "leaving existing file alone"
   end
-  puts 
+  puts
+end
+
+puts "writing lock file"
+Dir.chdir(dotfile_dir) do
+  lock_file = File.join(Dir.home, ".dotfile.lock")
+  File.open(lock_file, "wb") do |f|
+    f << `git rev-parse HEAD`
+  end
 end
