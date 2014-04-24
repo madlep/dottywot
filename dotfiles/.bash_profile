@@ -8,8 +8,6 @@ export PATH=/usr/local/sbin:$PATH
 
 [[ $- == *i* ]]   &&   . $HOME/.git-prompt/git-prompt.sh
 
-# use macvim command line `vim`
-# alias vim="/Applications/MacVim.app/Contents/MacOS/Vim"
 
 export GIT_EDITOR="vim"
 export SVN_EDITOR="vim"
