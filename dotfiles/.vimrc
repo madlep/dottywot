@@ -27,13 +27,15 @@ NeoBundle 'tpope/vim-surround'
 NeoBundle 'scrooloose/syntastic'
 NeoBundle 'matze/vim-move'
 NeoBundle 'groenewege/vim-less'
-NeoBundle 'junegunn/goyo.vim'
-NeoBundle 'amix/vim-zenroom2'
 NeoBundle 'sprsquish/thrift.vim'
 NeoBundle 'vim-scripts/csv.vim'
 NeoBundle 'elzr/vim-json'
 NeoBundle 'pangloss/vim-javascript'
 NeoBundle 'mxw/vim-jsx'
+NeoBundle 'machakann/vim-textobj-delimited'
+NeoBundle 'tpope/vim-endwise'
+NeoBundle 'vim-ruby/vim-ruby'
+
 
 
 filetype plugin indent on
@@ -82,7 +84,6 @@ nmap k gk
 :nnoremap <F5> "=strftime("%FT%T%z")<CR>P
 :inoremap <F5> <C-R>=strftime("%FT%T%z")<CR>
 
-:nnoremap <silent> <leader>z :Goyo<cr>
 :nnoremap <silent> <leader>nt :NERDTree<cr>
 :nnoremap <silent> <leader>nf :NERDTreeFind<cr>
 

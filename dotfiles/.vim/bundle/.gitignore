@@ -24,3 +24,6 @@ thrift.vim
 vim-javascript
 vim-json
 vim-jsx
+vim-endwise
+vim-ruby
+vim-textobj-delimited
