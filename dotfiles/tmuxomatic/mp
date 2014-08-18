@@ -1,0 +1,28 @@
+#---
+window src
+
+AB
+
+  foc
+  dir /Users/madlep/src/marketplace
+
+A run vim
+
+#---
+window server
+
+A
+
+  dir /Users/madlep/src/marketplace
+
+A run bundle install --local && bundle exec foreman start web
+
+#---
+window log
+
+AB
+
+  dir /Users/madlep/src/marketplace
+
+A run tail -f log/rails_development.?.log
+B run tail -f log/test.log
