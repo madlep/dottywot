@@ -97,3 +97,4 @@ let g:move_key_modifier = 'C'
 au BufNewFile,BufReadPost *.coffee setl foldmethod=indent nofoldenable
 au BufNewFile,BufReadPost *.md setl ft=markdown wrap linebreak tw=80
 au BufNewFile,BufReadPost *.thrift setl ft=thrift
+au BufNewFile,BufReadPost *.python setl tabstop=8 noexpandtab shiftwidth=8 softtabstop=8
