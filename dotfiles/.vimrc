@@ -75,10 +75,14 @@ set sidescrolloff=10 " Keep 5 lines at the side
 runtime macros/matchit.vim
 let macvim_skip_cmd_opt_movement=1
 let ruby_no_expensive=1 " speed up ruby
+" these commands are because stackoverflow said it was cool
+" http://stackoverflow.com/questions/16902317/vim-slow-with-ruby-syntax-highlighting/16903054#16903054
+set ttyfast " running locally, so send more characters for speeeed
+set lazyredraw " dont' redraw during macros etc for speeeed
 
 " move up/down in wrapped text
-nmap j gj
-nmap k gk
+" nmap j gj
+" nmap k gk
 
 " insert current date/time
 :nnoremap <F5> "=strftime("%FT%T%z")<CR>P
