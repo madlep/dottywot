@@ -12,6 +12,16 @@ B cd /Users/madlep/src/marketplace
 
 
 #----------
+window console
+
+A
+
+  dir /Users/madlep/src/marketplace
+
+A run bundle install --local && bundle exec rails console
+
+
+#----------
 window server
 
 A
