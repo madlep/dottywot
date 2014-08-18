@@ -1,4 +1,4 @@
-#---
+#----------
 window src
 
 AB
@@ -8,7 +8,8 @@ AB
 
 A run vim
 
-#---
+
+#----------
 window server
 
 A
@@ -17,7 +18,8 @@ A
 
 A run bundle install --local && bundle exec foreman start web
 
-#---
+
+#----------
 window log
 
 AB
