@@ -79,6 +79,8 @@ let ruby_no_expensive=1 " speed up ruby
 " http://stackoverflow.com/questions/16902317/vim-slow-with-ruby-syntax-highlighting/16903054#16903054
 set ttyfast " running locally, so send more characters for speeeed
 set lazyredraw " dont' redraw during macros etc for speeeed
+set nobackup
+set noswapfile
 
 " move up/down in wrapped text
 " nmap j gj
