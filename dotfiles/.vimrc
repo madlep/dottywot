@@ -95,6 +95,8 @@ let mapleader="\<Space>"
 nnoremap j gj
 nnoremap k gk
 
+nmap <silent> ,/ :nohlsearch<CR>
+
 " move plugin remap for iterm
 let g:move_key_modifier = 'C'
 
