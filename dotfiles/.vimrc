@@ -82,9 +82,6 @@ set lazyredraw " dont' redraw during macros etc for speeeed
 set nobackup
 set noswapfile
 
-" move up/down in wrapped text
-" nmap j gj
-" nmap k gk
 
 " insert current date/time
 :nnoremap <F5> "=strftime("%FT%T%z")<CR>P
@@ -92,6 +89,10 @@ set noswapfile
 
 :nnoremap <silent> <leader>nt :NERDTree<cr>
 :nnoremap <silent> <leader>nf :NERDTreeFind<cr>
+
+" move up/down in wrapped lines
+nnoremap j gj
+nnoremap k gk
 
 " move plugin remap for iterm
 let g:move_key_modifier = 'C'
