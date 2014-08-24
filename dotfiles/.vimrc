@@ -82,6 +82,7 @@ set lazyredraw " dont' redraw during macros etc for speeeed
 set nobackup
 set noswapfile
 
+let mapleader="\<Space>"
 
 " insert current date/time
 :nnoremap <F5> "=strftime("%FT%T%z")<CR>P
