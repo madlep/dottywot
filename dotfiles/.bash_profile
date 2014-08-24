@@ -55,5 +55,9 @@ function c {
   fi
 }
 
+function tm {
+  tmuxomatic ~/tmuxomatic/$1
+}
+
 # smart fuzzy dir changing
 [[ -s `brew --prefix`/etc/profile.d/z.sh ]] && . `brew --prefix`/etc/profile.d/z.sh
