@@ -40,6 +40,8 @@ alias gs='git status'
 alias be='bundle exec'
 alias ber='bundle exec rake'
 
+alias tma='tmux attach-session'
+
 # change into dir and do a listing straight away
 function c {
   if [ -z $1 ]; then
