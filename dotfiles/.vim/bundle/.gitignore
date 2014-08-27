@@ -1,7 +1,6 @@
 .neobundle
 Puppet-Syntax-Highlighting
 YouCompleteMe
-ack.vim
 ctrlp.vim
 nerdtree
 tabular
@@ -27,3 +26,4 @@ vim-jsx
 vim-endwise
 vim-ruby
 vim-textobj-delimited
+ag.vim
