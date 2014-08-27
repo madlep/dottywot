@@ -90,6 +90,7 @@ let mapleader="\<Space>"
 
 :nnoremap <silent> <leader>nt :NERDTree<cr>
 :nnoremap <silent> <leader>nf :NERDTreeFind<cr>
+:nnoremap <silent> <leader>a vey:Ag<cr>
 
 " move up/down in wrapped lines
 nnoremap j gj
