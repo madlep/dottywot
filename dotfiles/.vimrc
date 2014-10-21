@@ -35,7 +35,7 @@ NeoBundle 'mxw/vim-jsx'
 NeoBundle 'machakann/vim-textobj-delimited'
 NeoBundle 'tpope/vim-endwise'
 NeoBundle 'vim-ruby/vim-ruby'
-
+NeoBundle 'christoomey/vim-tmux-navigator'
 
 
 filetype plugin indent on
@@ -95,6 +95,9 @@ let mapleader="\<Space>"
 " move up/down in wrapped lines
 nnoremap j gj
 nnoremap k gk
+
+" move whole blocks up/down
+let g:move_key_modifier = 'C-S'
 
 nmap <silent> ,/ :nohlsearch<CR>
 

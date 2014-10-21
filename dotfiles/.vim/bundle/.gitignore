@@ -27,3 +27,4 @@ vim-endwise
 vim-ruby
 vim-textobj-delimited
 ag.vim
+vim-tmux-navigator
