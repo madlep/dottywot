@@ -1,5 +1,8 @@
 set nocompatible               " Be iMproved
 
+set mouse+=a
+set ttymouse=xterm2
+
 if has('vim_starting')
   set runtimepath+=~/.vim/bundle/neobundle.vim/
 endif
