@@ -1,2 +1,2 @@
 cd /Users/madlep/Dropbox/notes/devthoughts
-/Applications/MacVim.app/Contents/MacOS/Vim `date "+%Y-%m-%d.md"`
+vim `date "+%Y-%m-%d.md"`
