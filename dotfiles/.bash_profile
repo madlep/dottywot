@@ -20,6 +20,10 @@ if [ -f `brew --prefix`/etc/bash_completion ]; then
   . `brew --prefix`/etc/bash_completion
 fi
 
+if [ -n "$(which aws_completer)" ]; then
+  complete -C aws_completer aws
+fi
+
 if [ -f $HOME/.bash_profile.local ]; then
   . $HOME/.bash_profile.local
 fi
