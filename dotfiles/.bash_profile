@@ -14,7 +14,6 @@ fi
 
 export GIT_EDITOR="vim"
 export EDITOR="vim"
-export VAGRANT_DEFAULT_PROVIDER=vmware_fusion
 
 if [ -f `brew --prefix`/etc/bash_completion ]; then
   . `brew --prefix`/etc/bash_completion
