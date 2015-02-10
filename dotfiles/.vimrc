@@ -39,7 +39,7 @@ NeoBundle 'machakann/vim-textobj-delimited'
 NeoBundle 'tpope/vim-endwise'
 NeoBundle 'vim-ruby/vim-ruby'
 NeoBundle 'christoomey/vim-tmux-navigator'
-
+NeoBundle 'mtscout6/vim-cjsx'
 
 filetype plugin indent on
 NeoBundleCheck
