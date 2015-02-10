@@ -84,6 +84,7 @@ set ttyfast " running locally, so send more characters for speeeed
 set lazyredraw " dont' redraw during macros etc for speeeed
 set nobackup
 set noswapfile
+let g:airline_powerline_fonts = 1
 
 let mapleader="\<Space>"
 
