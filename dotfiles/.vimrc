@@ -101,7 +101,15 @@ nnoremap j gj
 nnoremap k gk
 
 " move whole blocks up/down
-let g:move_key_modifier = 'C-S'
+nmap <Up>   <Plug>MoveLineUp
+nmap <Down> <Plug>MoveLineDown
+vmap <Up>   <Plug>MoveBlockUp
+vmap <Down> <Plug>MoveBlockDown
+
+nmap <Left> <<
+nmap <Right> >>
+vmap <Left> <gv
+vmap <Right> >gv
 
 nmap <silent> ,/ :nohlsearch<CR>
 
