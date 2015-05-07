@@ -77,3 +77,13 @@ export PATH="/usr/local/heroku/bin:$PATH"
 
 GPG_TTY=`tty` 
 export GPG_TTY
+
+function mkpasswd() {
+  if [ -z $1 ]; then
+    SIZE=32
+  else
+    SIZE=$1
+  fi
+  base64 /dev/urandom | tr -d "/+$2" | dd bs="$SIZE" count=1 2> /dev/null
+  if [ -t 1 ] ; then echo ""; fi
+}
