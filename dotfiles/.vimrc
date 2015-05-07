@@ -115,6 +115,12 @@ vnoremap <Right> >gv
 " unhighlight search term
 nnoremap <silent> ,/ :nohlsearch<CR>
 
+" insert new line at position
+nnoremap <CR> i<CR><ESC>
+" keep CR working in quickfix/location working even with above mapping
+:autocmd CmdwinEnter * nnoremap <CR> <CR>
+:autocmd BufReadPost quickfix nnoremap <CR> <CR>
+
 " move plugin remap for iterm
 let g:move_key_modifier = 'C'
 
