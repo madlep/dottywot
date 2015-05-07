@@ -102,17 +102,17 @@ nnoremap j gj
 nnoremap k gk
 
 " move whole blocks up/down
-nmap <Up>   <Plug>MoveLineUp
-nmap <Down> <Plug>MoveLineDown
-vmap <Up>   <Plug>MoveBlockUp
-vmap <Down> <Plug>MoveBlockDown
+nnoremap <Up>   <Plug>MoveLineUp
+nnoremap <Down> <Plug>MoveLineDown
+vnoremap <Up>   <Plug>MoveBlockUp
+vnoremap <Down> <Plug>MoveBlockDown
 
-nmap <Left> <<
-nmap <Right> >>
-vmap <Left> <gv
-vmap <Right> >gv
+nnoremap <Left> <<
+nnoremap <Right> >>
+vnoremap <Left> <gv
+vnoremap <Right> >gv
 
-nmap <silent> ,/ :nohlsearch<CR>
+nnoremap <silent> ,/ :nohlsearch<CR>
 
 " move plugin remap for iterm
 let g:move_key_modifier = 'C'
