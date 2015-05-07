@@ -112,6 +112,7 @@ nnoremap <Right> >>
 vnoremap <Left> <gv
 vnoremap <Right> >gv
 
+" unhighlight search term
 nnoremap <silent> ,/ :nohlsearch<CR>
 
 " move plugin remap for iterm
