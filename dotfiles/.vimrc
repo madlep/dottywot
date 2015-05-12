@@ -102,10 +102,11 @@ nnoremap j gj
 nnoremap k gk
 
 " move whole blocks up/down
-nnoremap <Up>   <Plug>MoveLineUp
-nnoremap <Down> <Plug>MoveLineDown
-vnoremap <Up>   <Plug>MoveBlockUp
-vnoremap <Down> <Plug>MoveBlockDown
+let g:move_map_keys = 0
+nmap <Up>   <Plug>MoveLineUp
+nmap <Down> <Plug>MoveLineDown
+vmap <Up>   <Plug>MoveBlockUp
+vmap <Down> <Plug>MoveBlockDown
 
 nnoremap <Left> <<
 nnoremap <Right> >>
@@ -121,8 +122,6 @@ nnoremap <CR> i<CR><ESC>
 :autocmd CmdwinEnter * nnoremap <CR> <CR>
 :autocmd BufReadPost quickfix nnoremap <CR> <CR>
 
-" move plugin remap for iterm
-let g:move_key_modifier = 'C'
 
 au BufNewFile,BufReadPost *.coffee setl foldmethod=indent nofoldenable
 au BufNewFile,BufReadPost *.md setl ft=markdown wrap linebreak tw=80 spell spelllang=en_au
