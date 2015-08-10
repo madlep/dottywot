@@ -66,7 +66,7 @@ function c {
 }
 
 function tm {
-  tmuxomatic ~/tmuxomatic/$1
+  PYENV_VERSION=3.3.5 tmuxomatic ~/tmuxomatic/$1
 }
 
 # smart fuzzy dir changing
