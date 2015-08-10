@@ -29,4 +29,5 @@ vim-textobj-delimited
 ag.vim
 vim-tmux-navigator
 vim-cjsx
+quick-scope
 yajs.vim

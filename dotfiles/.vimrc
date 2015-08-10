@@ -41,6 +41,7 @@ NeoBundle 'vim-ruby/vim-ruby'
 NeoBundle 'christoomey/vim-tmux-navigator'
 NeoBundle 'mtscout6/vim-cjsx'
 NeoBundle 'othree/yajs.vim'
+NeoBundle 'unblevable/quick-scope'
 
 filetype plugin indent on
 NeoBundleCheck
