@@ -40,6 +40,7 @@ NeoBundle 'tpope/vim-endwise'
 NeoBundle 'vim-ruby/vim-ruby'
 NeoBundle 'christoomey/vim-tmux-navigator'
 NeoBundle 'mtscout6/vim-cjsx'
+NeoBundle 'othree/yajs.vim'
 
 filetype plugin indent on
 NeoBundleCheck

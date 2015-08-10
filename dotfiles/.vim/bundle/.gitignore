@@ -29,3 +29,4 @@ vim-textobj-delimited
 ag.vim
 vim-tmux-navigator
 vim-cjsx
+yajs.vim
