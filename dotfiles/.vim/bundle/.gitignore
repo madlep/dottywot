@@ -31,3 +31,5 @@ vim-tmux-navigator
 vim-cjsx
 quick-scope
 yajs.vim
+elm.vim
+purescript-vim
