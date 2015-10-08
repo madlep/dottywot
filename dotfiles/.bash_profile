@@ -87,3 +87,6 @@ function mkpasswd() {
   base64 /dev/urandom | tr -d "/+$2" | dd bs="$SIZE" count=1 2> /dev/null
   if [ -t 1 ] ; then echo ""; fi
 }
+
+# needed for subtitles to work in ffmepg
+export FONTCONFIG_PATH=/opt/X11/lib/X11/fontconfig
