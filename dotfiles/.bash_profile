@@ -1,4 +1,3 @@
-[[ -s /opt/boxen/env.sh ]] && source /opt/boxen/env.sh
 set -o vi
 
 ulimit -n 4096
@@ -29,7 +28,6 @@ fi
 
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
-export EXENV_ROOT=/opt/boxen/homebrew/var/exenv
 if which exenv > /dev/null; then eval "$(exenv init -)"; fi
 
 # run this occasionally to find more stuff to add here...
