@@ -44,6 +44,7 @@ NeoBundle 'othree/yajs.vim'
 NeoBundle 'unblevable/quick-scope'
 NeoBundle 'raichoo/purescript-vim'
 NeoBundle 'lambdatoast/elm.vim'
+NeoBundle 'szw/vim-tags'
 
 filetype plugin indent on
 NeoBundleCheck
@@ -100,6 +101,9 @@ let mapleader="\<Space>"
 :nnoremap <silent> <leader>nf :NERDTreeFind<cr>
 " high light word, copy it, do Ag search on it
 :nnoremap <silent> <leader>a ebvey:Ag!<cr>
+
+" CtrlPTag
+:nnoremap <silent> <leader>pt :CtrlPTag<cr>
 
 " move up/down in wrapped lines
 nnoremap j gj
