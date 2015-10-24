@@ -73,7 +73,7 @@ function tm {
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 
-GPG_TTY=`tty` 
+GPG_TTY=`tty`
 export GPG_TTY
 
 function mkpasswd() {
