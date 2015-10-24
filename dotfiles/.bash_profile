@@ -88,3 +88,6 @@ function mkpasswd() {
 
 # needed for subtitles to work in ffmepg
 export FONTCONFIG_PATH=/opt/X11/lib/X11/fontconfig
+
+# needed for mono to work
+export MONO_GAC_PREFIX="/usr/local"
