@@ -19,3 +19,5 @@
 	name = Julian Doherty (madlep)
 [github]
 	user = madlep
+[push]
+	default = simple
