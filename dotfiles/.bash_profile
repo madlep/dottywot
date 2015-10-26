@@ -86,6 +86,13 @@ function mkpasswd() {
   if [ -t 1 ] ; then echo ""; fi
 }
 
+function gpbi() {
+  pushd "$1"
+  git pull
+  bundle check || bundle install
+  popd
+}
+
 # needed for subtitles to work in ffmepg
 export FONTCONFIG_PATH=/opt/X11/lib/X11/fontconfig
 
