@@ -88,7 +88,7 @@ function mkpasswd() {
 
 function gpbi() {
   pushd "$1"
-  git pull
+  for i in 1 2 3 4 5; do git pull && break || sleep 15; done
   bundle check || bundle install
   popd
 }
