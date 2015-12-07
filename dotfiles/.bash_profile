@@ -67,6 +67,14 @@ function tm {
   PYENV_VERSION=3.3.5 tmuxomatic ~/tmuxomatic/$1
 }
 
+function tmwn {
+  tmux rename-window $(basename $(pwd))
+}
+
+function tmsn {
+  tmux rename-session $(basename $(pwd))
+}
+
 # smart fuzzy dir changing
 [[ -s `brew --prefix`/etc/profile.d/z.sh ]] && . `brew --prefix`/etc/profile.d/z.sh
 
