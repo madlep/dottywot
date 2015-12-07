@@ -129,6 +129,7 @@ nnoremap <CR> i<CR><ESC>
 :autocmd CmdwinEnter * nnoremap <CR> <CR>
 :autocmd BufReadPost quickfix nnoremap <CR> <CR>
 
+nnoremap <silent> <leader>fp vipgq
 
 au BufNewFile,BufReadPost *.coffee setl foldmethod=indent nofoldenable
 au BufNewFile,BufReadPost *.md setl ft=markdown wrap linebreak tw=80 spell spelllang=en_au
