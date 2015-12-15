@@ -44,6 +44,8 @@ NeoBundle 'othree/yajs.vim'
 NeoBundle 'raichoo/purescript-vim'
 NeoBundle 'lambdatoast/elm.vim'
 NeoBundle 'szw/vim-tags'
+NeoBundle 'thoughtbot/vim-rspec'
+NeoBundle 'jgdavey/tslime.vim'
 
 filetype plugin indent on
 NeoBundleCheck
@@ -129,7 +131,15 @@ nnoremap <CR> i<CR><ESC>
 :autocmd CmdwinEnter * nnoremap <CR> <CR>
 :autocmd BufReadPost quickfix nnoremap <CR> <CR>
 
+" format text paragraph
 nnoremap <silent> <leader>fp vipgq
+
+" RSpec.vim mappings
+map <Leader>rt :call RunCurrentSpecFile()<CR>
+map <Leader>rs :call RunNearestSpec()<CR>
+map <Leader>rl :call RunLastSpec()<CR>
+map <Leader>ra :call RunAllSpecs()<CR>
+let g:rspec_command = 'call Send_to_Tmux("rspec {spec}\n")'
 
 au BufNewFile,BufReadPost *.coffee setl foldmethod=indent nofoldenable
 au BufNewFile,BufReadPost *.md setl ft=markdown wrap linebreak tw=80 spell spelllang=en_au
