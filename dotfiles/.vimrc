@@ -135,11 +135,11 @@ nnoremap <CR> i<CR><ESC>
 nnoremap <silent> <leader>fp vipgq
 
 " RSpec.vim mappings
-map <Leader>rt :call RunCurrentSpecFile()<CR>
-map <Leader>rs :call RunNearestSpec()<CR>
-map <Leader>rl :call RunLastSpec()<CR>
-map <Leader>ra :call RunAllSpecs()<CR>
-let g:rspec_command = 'call Send_to_Tmux("rspec {spec}\n")'
+au FileType ruby map <Leader>rt :call RunCurrentSpecFile()<CR>
+au FileType ruby map <Leader>rs :call RunNearestSpec()<CR>
+au FileType ruby map <Leader>rl :call RunLastSpec()<CR>
+au FileType ruby map <Leader>ra :call RunAllSpecs()<CR>
+au FileType ruby let g:rspec_command = 'call Send_to_Tmux("rspec {spec}\n")'
 
 au BufNewFile,BufReadPost *.coffee setl foldmethod=indent nofoldenable
 au BufNewFile,BufReadPost *.md setl ft=markdown wrap linebreak tw=80 spell spelllang=en_au
