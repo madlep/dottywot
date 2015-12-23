@@ -134,6 +134,9 @@ nnoremap <CR> i<CR><ESC>
 " format text paragraph
 nnoremap <silent> <leader>fp vipgq
 
+" open tag in new windo
+nnoremap <silent> <Leader>tw <C-w><C-]><C-w>T
+
 " RSpec.vim mappings
 au FileType ruby map <Leader>rt :call RunCurrentSpecFile()<CR>
 au FileType ruby map <Leader>rs :call RunNearestSpec()<CR>
