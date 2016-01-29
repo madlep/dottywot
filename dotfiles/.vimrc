@@ -146,7 +146,10 @@ au FileType ruby map <Leader>rt :call RunCurrentSpecFile()<CR>
 au FileType ruby map <Leader>rs :call RunNearestSpec()<CR>
 au FileType ruby map <Leader>rl :call RunLastSpec()<CR>
 au FileType ruby map <Leader>ra :call RunAllSpecs()<CR>
-au FileType ruby let g:rspec_command = 'call Send_to_Tmux("rspec {spec}\n")'
+au FileType ruby map <Leader>tr unset g:tslime
+au FileType ruby let g:rspec_command = 'call Send_to_Tmux("bundle exec rspec {spec}\n")'
+let g:tslime_always_current_session = 1
+let g:tslime_always_current_window = 1
 
 au BufNewFile,BufReadPost *.coffee setl foldmethod=indent nofoldenable
 au BufNewFile,BufReadPost *.md setl ft=markdown wrap linebreak tw=80 spell spelllang=en_au
