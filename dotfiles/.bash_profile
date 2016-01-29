@@ -4,8 +4,9 @@ ulimit -n 4096
 
 export PATH=$HOME/bin:$PATH
 
-if [ -f "$(brew --prefix)/opt/bash-git-prompt/share/gitprompt.sh" ]; then
-    source "$(brew --prefix)/opt/bash-git-prompt/share/gitprompt.sh"
+if [ -f "$(brew --prefix bash-git-prompt)/share/gitprompt.sh" ]; then
+  GIT_PROMPT_THEME=Default
+  source "$(brew --prefix bash-git-prompt)/share/gitprompt.sh"
 else
   echo "run brew install bash-git-prompt to get prompt working properly"
 fi
