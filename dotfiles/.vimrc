@@ -134,8 +134,12 @@ nnoremap <CR> i<CR><ESC>
 " format text paragraph
 nnoremap <silent> <leader>fp vipgq
 
-" open tag in new windo
-nnoremap <silent> <Leader>tw <C-w><C-]><C-w>T
+" open tag in new tab
+nnoremap <silent> <Leader>tt <C-w><C-]><C-w>T
+" open tag in split
+nnoremap <silent> <Leader>ts :split<CR>:exec("tag ".expand("<cword>"))<CR>
+" open tag in vsplit
+nnoremap <silent> <Leader>tv :vsp <CR>:exec("tag ".expand("<cword>"))<CR>
 
 " RSpec.vim mappings
 au FileType ruby map <Leader>rt :call RunCurrentSpecFile()<CR>
