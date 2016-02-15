@@ -12,6 +12,7 @@
 --ignore-dir=tmp
 --ignore-dir=doc
 --ignore-dir=coverage
+--ignore-dir=node_modules
 --sort-files
 --color
 --follow
