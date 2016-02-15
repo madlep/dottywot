@@ -92,6 +92,11 @@ set nobackup
 set noswapfile
 let g:airline_powerline_fonts = 1
 
+augroup vimrc_autocmds
+  autocmd BufEnter * highlight OverLength ctermbg=darkred
+  autocmd BufEnter * match OverLength /\%>80v.\+/
+augroup END
+
 let mapleader="\<Space>"
 
 " insert current date/time
