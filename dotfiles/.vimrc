@@ -92,6 +92,7 @@ set nobackup
 set noswapfile
 let g:airline_powerline_fonts = 1
 
+" display anything longer than 80 chars on a line in angry red
 augroup vimrc_autocmds
   autocmd BufEnter * highlight OverLength ctermbg=darkred
   autocmd BufEnter * match OverLength /\%>80v.\+/
