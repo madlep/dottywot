@@ -93,9 +93,21 @@ set noswapfile
 let g:airline_powerline_fonts = 1
 
 " display anything longer than 80 chars on a line in angry red
+let g:overlength_ignored = [
+      \"qf",
+      \"yaml"
+      \]
+fun! OverLengthOnMaybe()
+  if index(g:overlength_ignored, &filetype) != -1
+    highlight clear OverLength
+  else
+    highlight OverLength ctermbg=darkred
+  endif
+  match OverLength /\%>80v.\+/
+endfun
+
 augroup vimrc_autocmds
-  autocmd BufEnter * highlight OverLength ctermbg=darkred
-  autocmd BufEnter * match OverLength /\%>80v.\+/
+  autocmd BufEnter,Filetype * call OverLengthOnMaybe()
 augroup END
 
 let mapleader="\<Space>"
