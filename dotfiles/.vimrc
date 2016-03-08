@@ -95,7 +95,10 @@ let g:airline_powerline_fonts = 1
 " display anything longer than 80 chars on a line in angry red
 let g:overlength_ignored = [
       \"qf",
-      \"yaml"
+      \"yaml",
+      \"diff",
+      \"gitcommit",
+      \"fugitiveblame"
       \]
 fun! OverLengthOnMaybe()
   if index(g:overlength_ignored, &filetype) != -1
