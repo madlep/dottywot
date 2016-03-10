@@ -31,6 +31,8 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 if which exenv > /dev/null; then eval "$(exenv init -)"; fi
 
+if which nodenv > /dev/null; then eval "$(nodenv init -)"; fi
+
 # run this occasionally to find more stuff to add here...
 # history | cut -c8- | sort | uniq -c | sort -rn | head
 alias lah='ls -lah'
