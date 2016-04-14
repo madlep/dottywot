@@ -28,6 +28,7 @@ NeoBundle 'airblade/vim-gitgutter'
 NeoBundle 'bling/vim-airline'
 NeoBundle 'tpope/vim-surround'
 NeoBundle 'scrooloose/syntastic'
+let g:syntastic_javascript_checkers = ['eslint']
 NeoBundle 'matze/vim-move'
 NeoBundle 'groenewege/vim-less'
 NeoBundle 'sprsquish/thrift.vim'
