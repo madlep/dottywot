@@ -101,13 +101,27 @@ let g:overlength_ignored = [
       \"gitcommit",
       \"fugitiveblame"
       \]
+let g:overlength_on = 1
 fun! OverLengthOnMaybe()
-  if index(g:overlength_ignored, &filetype) != -1
-    highlight clear OverLength
+  if g:overlength_on == 1
+    if index(g:overlength_ignored, &filetype) != -1
+      highlight clear OverLength
+    else
+      highlight OverLength ctermbg=darkred
+    endif
+    match OverLength /\%>80v.\+/
   else
-    highlight OverLength ctermbg=darkred
+    highlight clear OverLength
   endif
-  match OverLength /\%>80v.\+/
+endfun
+
+fun! OverLengthToggle()
+  if g:overlength_on == 1
+    let g:overlength_on = 0
+  else
+    let g:overlength_on = 1
+  endif
+  call OverLengthOnMaybe()
 endfun
 
 augroup vimrc_autocmds
@@ -162,6 +176,9 @@ nnoremap <silent> <Leader>tt <C-w><C-]><C-w>T
 nnoremap <silent> <Leader>ts :split<CR>:exec("tag ".expand("<cword>"))<CR>
 " open tag in vsplit
 nnoremap <silent> <Leader>tv :vsp <CR>:exec("tag ".expand("<cword>"))<CR>
+
+" toggle overlength highlighting
+nnoremap <silent> <leader>o :call OverLengthToggle()<CR>
 
 " RSpec.vim mappings
 au FileType ruby map <Leader>rt :call RunCurrentSpecFile()<CR>
