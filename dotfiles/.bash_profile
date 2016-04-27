@@ -35,6 +35,8 @@ if which exenv > /dev/null; then eval "$(exenv init -)"; fi
 
 if which nodenv > /dev/null; then eval "$(nodenv init -)"; fi
 
+if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
+
 # run this occasionally to find more stuff to add here...
 # history | cut -c8- | sort | uniq -c | sort -rn | head
 alias lah='ls -lah'
@@ -69,7 +71,7 @@ function c {
 }
 
 function tm {
-  PYENV_VERSION=3.3.5 tmuxomatic ~/tmuxomatic/$1
+  tmuxomatic ~/tmuxomatic/$1
 }
 
 function tmwn {
