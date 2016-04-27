@@ -4,6 +4,8 @@ ulimit -n 4096
 
 export PATH=$HOME/bin:$PATH
 
+export HOMEBREW_NO_ANALYTICS=1 # because fuck users that's why
+
 if [ -f "$(brew --prefix bash-git-prompt)/share/gitprompt.sh" ]; then
   GIT_PROMPT_THEME=Default
   source "$(brew --prefix bash-git-prompt)/share/gitprompt.sh"
