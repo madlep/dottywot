@@ -113,5 +113,3 @@ export FONTCONFIG_PATH=/opt/X11/lib/X11/fontconfig
 
 # needed for mono to work
 export MONO_GAC_PREFIX="/usr/local"
-
-test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
