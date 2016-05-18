@@ -119,7 +119,7 @@ function c {
 
   # if we changed dir successfully, list contents
   if [ $? -eq 0 ]; then
-    ls -la
+    ls -laF
   fi
 }
 
