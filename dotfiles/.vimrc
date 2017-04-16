@@ -23,7 +23,7 @@ NeoBundle 'elixir-lang/vim-elixir'
 NeoBundle 'vim-scripts/Puppet-Syntax-Highlighting'
 NeoBundle 'altercation/vim-colors-solarized'
 NeoBundle 'Valloric/YouCompleteMe'
-let g:ycm_server_python_interpreter = expand('~/.pyenv/shims/python')
+let g:ycm_server_python_interpreter = expand('/usr/local/bin/python2')
 NeoBundle 'airblade/vim-gitgutter'
 NeoBundle 'bling/vim-airline'
 NeoBundle 'tpope/vim-surround'
