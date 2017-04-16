@@ -36,3 +36,4 @@ purescript-vim
 vim-tags
 tslime.vim
 vim-rspec
+promptline.vim

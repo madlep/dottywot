@@ -45,6 +45,7 @@ NeoBundle 'lambdatoast/elm.vim'
 NeoBundle 'szw/vim-tags'
 NeoBundle 'thoughtbot/vim-rspec'
 NeoBundle 'jgdavey/tslime.vim'
+NeoBundle 'edkolev/promptline.vim'
 
 filetype plugin indent on
 NeoBundleCheck
