@@ -92,6 +92,7 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 if which exenv > /dev/null; then eval "$(exenv init -)"; fi
 if which nodenv > /dev/null; then eval "$(nodenv init -)"; fi
 if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
+if which direnv > /dev/null; then eval "$(direnv hook zsh)"; fi
 
 alias lah='ls -laFh'
 alias l='ls -laF'
