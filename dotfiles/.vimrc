@@ -134,6 +134,9 @@ let mapleader="\<Space>"
 :nnoremap <F5> "=strftime("%FT%T%z")<CR>P
 :inoremap <F5> <C-R>=strftime("%FT%T%z")<CR>
 
+:nnoremap <F6> "=strftime("%Y-%m-%d %a")<CR>P
+:inoremap <F6> <C-R>=strftime("%Y-%m-%d %a")<CR>
+
 :nnoremap <silent> <leader>nt :NERDTree<cr>
 :nnoremap <silent> <leader>nf :NERDTreeFind<cr>
 " high light word, copy it, do Ag search on it
