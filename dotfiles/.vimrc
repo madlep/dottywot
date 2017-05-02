@@ -46,6 +46,7 @@ NeoBundle 'szw/vim-tags'
 NeoBundle 'thoughtbot/vim-rspec'
 NeoBundle 'jgdavey/tslime.vim'
 NeoBundle 'edkolev/promptline.vim'
+NeoBundle 'vimwiki/vimwiki'
 
 filetype plugin indent on
 NeoBundleCheck
@@ -201,3 +202,8 @@ au BufNewFile,BufReadPost *.python setl
 "# ignore noise in ctrlp
 let g:ctrlp_custom_ignore =
       \ '\v[\/](node_modules|target|dist)|(\.(swp|ico|git|svn))$'
+
+" vimwiki
+au FileType vimwiki nmap <Leader>k <Plug>VimwikiDiaryPrevDay
+au FileTYpe vimwiki nmap <Leader>j <Plug>VimwikiDiaryNextDay
+let g:vimwiki_list = [{'path': '~/Dropbox/vimwiki'}]
