@@ -207,6 +207,7 @@ let g:ctrlp_custom_ignore =
       \ '\v[\/](node_modules|target|dist)|(\.(swp|ico|git|svn))$'
 
 " vimwiki
+au FileType vimwiki setlocal spell
 au FileType vimwiki nmap <Leader>k <Plug>VimwikiDiaryPrevDay
 au FileTYpe vimwiki nmap <Leader>j <Plug>VimwikiDiaryNextDay
 let g:vimwiki_list = [{'path': '~/Dropbox/vimwiki'}]
