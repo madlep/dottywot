@@ -180,6 +180,10 @@ nnoremap <silent> <Leader>tv :vsp <CR>:exec("tag ".expand("<cword>"))<CR>
 " toggle overlength highlighting
 nnoremap <silent> <leader>o :call OverLengthToggle()<CR>
 
+" increment / decrement numbers (ctrl-A is used by tmux)
+:nnoremap <Leader>ns <C-a>
+:nnoremap <Leader>nx <C-x>
+
 " RSpec.vim mappings
 au FileType ruby map <Leader>rt :call RunCurrentSpecFile()<CR>
 au FileType ruby map <Leader>rs :call RunNearestSpec()<CR>
