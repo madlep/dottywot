@@ -88,6 +88,7 @@ source $ZSH/oh-my-zsh.sh
 export HOMEBREW_NO_ANALYTICS=1 # because fuck users that's why
 export GIT_EDITOR="vim"
 export EDITOR="vim"
+export ERL_AFLAGS="-kernel shell_history enabled"
 
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 if which exenv > /dev/null; then eval "$(exenv init -)"; fi
