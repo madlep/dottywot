@@ -14,6 +14,7 @@
 [core]
 	editor = mate -w
 	whitespace = tab-in-indent,tabwidth=2
+	excludesfile = /Users/madlep/.gitignore_global
 [user]
 	email = madlep@madlep.com
 	name = Julian Doherty (madlep)
