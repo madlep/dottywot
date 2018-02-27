@@ -56,6 +56,7 @@ plugins=(git sudo vi-mode mix)
 
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 # export MANPATH="/usr/local/man:$MANPATH"
+export PATH="$HOME/.mix:$PATH"
 
 source $ZSH/oh-my-zsh.sh
 
