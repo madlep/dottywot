@@ -106,7 +106,6 @@ alias lart='ls -laFrt'
 alias gco='git checkout'
 alias gcv='git commit -v'
 alias gd='git diff'
-alias gs='git status'
 
 # bundle stuff
 alias be='bundle exec'
