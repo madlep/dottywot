@@ -60,14 +60,14 @@ set backspace=indent,eol,start " make backspace a more flexible
 set clipboard+=unnamed " share windows clipboard
 set directory=~/.vim/tmp " directory to place swap files in
 set fileformats=unix,dos,mac " support all three, in this order
-set cursorcolumn " highlight the current column
-set cursorline " highlight current line
-highlight CursorLine  term=underline  ctermbg=Black
-highlight CursorColumn  ctermbg=Black
+"set cursorcolumn " highlight the current column
+"set cursorline " highlight current line
+"highlight CursorLine  term=underline  ctermbg=Black
+"highlight CursorColumn  ctermbg=Black
 highlight StatusLine guifg=#ffffff guibg=#006600
 highlight StatusLineNC guifg=#333333 guibg=#444444
-au WinLeave * set nocursorline nocursorcolumn
-au WinEnter * set cursorline cursorcolumn
+"au WinLeave * set nocursorline nocursorcolumn
+"au WinEnter * set cursorline cursorcolumn
 set incsearch " BUT do highlight as you type search phrase
 set hlsearch " Highlight search results
 set laststatus=2 " always show the status line
