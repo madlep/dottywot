@@ -40,3 +40,5 @@ promptline.vim
 vimwiki
 VimCompletesMe
 vim-gutentags
+vim-mix-format
+vim-toml
