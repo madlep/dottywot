@@ -1,0 +1,28 @@
+brew "mas"
+
+mas "1Password", id: 443987910
+mas "Airmail 3", id: 918858936
+mas "Day One", id: 1055511498
+mas "Moom", id: 419330170
+mas "Pocket", id: 568494494
+mas "Reeder", id: 880001334
+mas "Slack", id: 803453959
+mas "Things", id: 904280696
+mas "Tweetbot for Twitter", id: 557168941
+
+cask "bartender"
+cask "dropbox"
+cask "firefox"
+cask "iterm2"
+cask "little-snitch"
+cask "sublime-text"
+
+cask "caskroom/fonts/font-inconsolata-for-powerline"
+
+brew "git"
+brew "reattach-to-user-namespace"
+brew "tmux"
+brew "vim"
+brew "z"
+brew "zsh"
+
