@@ -22,6 +22,9 @@ cask "caskroom/versions/java8"
 cask "caskroom/fonts/font-inconsolata-for-powerline"
 
 brew "elasticsearch", restart_service: :changed
+brew "erlang"
+brew "exenv"
+brew "elixir-build"
 brew "git"
 brew "reattach-to-user-namespace"
 brew "tmux"
