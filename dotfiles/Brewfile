@@ -27,6 +27,7 @@ brew "exenv"
 brew "elixir-build"
 brew "git"
 brew "httpie"
+brew "postgresql", restart_service: :changed
 brew "reattach-to-user-namespace"
 brew "tmux"
 brew "vim"
