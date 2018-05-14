@@ -46,6 +46,7 @@ NeoBundle 'ajh17/VimCompletesMe'
 NeoBundle 'ludovicchabant/vim-gutentags'
 NeoBundle 'mhinz/vim-mix-format'
 NeoBundle 'cespare/vim-toml'
+NeoBundle 'bfontaine/Brewfile.vim'
 
 filetype plugin indent on
 NeoBundleCheck
