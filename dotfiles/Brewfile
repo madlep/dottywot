@@ -13,6 +13,7 @@ mas "Tweetbot for Twitter", id: 557168941
 cask "bartender"
 cask "dropbox"
 cask "firefox"
+cask "google-chrome"
 cask "iterm2"
 cask "little-snitch"
 cask "sublime-text"
