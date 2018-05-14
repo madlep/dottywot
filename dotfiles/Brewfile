@@ -17,9 +17,11 @@ cask "google-chrome"
 cask "iterm2"
 cask "little-snitch"
 cask "sublime-text"
+cask "caskroom/versions/java8"
 
 cask "caskroom/fonts/font-inconsolata-for-powerline"
 
+brew "elasticsearch", restart_service: :changed
 brew "git"
 brew "reattach-to-user-namespace"
 brew "tmux"
