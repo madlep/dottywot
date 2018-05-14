@@ -29,6 +29,7 @@ brew "git"
 brew "httpie"
 brew "postgresql", restart_service: :changed
 brew "reattach-to-user-namespace"
+brew "rustup-init"
 brew "tmux"
 brew "vim"
 brew "z"
