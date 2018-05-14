@@ -21,6 +21,7 @@ cask "caskroom/versions/java8"
 
 cask "caskroom/fonts/font-inconsolata-for-powerline"
 
+brew "ctags"
 brew "elasticsearch", restart_service: :changed
 brew "erlang"
 brew "exenv"
