@@ -40,4 +40,5 @@ brew "tmux"
 brew "vim"
 brew "z"
 brew "zsh"
+brew "zsh-completions"
 
