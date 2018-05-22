@@ -27,6 +27,7 @@ brew "elasticsearch", restart_service: :changed
 brew "erlang"
 brew "exenv"
 brew "elixir-build"
+brew "figlet"
 brew "git"
 brew "httpie"
 brew "postgresql", restart_service: :changed
