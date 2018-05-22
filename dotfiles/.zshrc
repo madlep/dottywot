@@ -114,6 +114,8 @@ alias ber='bundle exec rake'
 
 alias tma='tmux attach-session'
 
+export DISABLE_AUTO_TITLE='true'
+
 function c {
   if [ -z $1 ]; then
     # if no arg given, just go up a dir
@@ -130,10 +132,6 @@ function c {
 
 # smart fuzzy dir changing
 [[ -s `brew --prefix`/etc/profile.d/z.sh ]] && . `brew --prefix`/etc/profile.d/z.sh
-
-function tm {
-  tmuxomatic ~/tmuxomatic/$1
-}
 
 function tmwn {
   tmux rename-window $(basename $(pwd))

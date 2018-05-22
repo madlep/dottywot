@@ -30,6 +30,7 @@ brew "elixir-build"
 brew "git"
 brew "httpie"
 brew "postgresql", restart_service: :changed
+brew "pyenv"
 brew "nvm"
 brew "reattach-to-user-namespace"
 brew "rustup-init"
