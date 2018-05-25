@@ -30,6 +30,7 @@ brew "exenv"
 brew "elixir-build"
 brew "figlet"
 brew "git"
+brew "heroku"
 brew "httpie"
 brew "postgresql", restart_service: :changed
 brew "pyenv"
