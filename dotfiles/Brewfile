@@ -30,6 +30,7 @@ brew "elasticsearch", restart_service: :changed
 brew "erlang"
 brew "exenv"
 brew "elixir-build"
+brew "exercism"
 brew "figlet"
 brew "git"
 brew "heroku"
