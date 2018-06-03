@@ -33,6 +33,7 @@ brew "elixir-build"
 brew "exercism"
 brew "figlet"
 brew "git"
+brew "gutenberg"
 brew "heroku"
 brew "httpie"
 brew "postgresql", restart_service: :changed
