@@ -47,6 +47,7 @@ brew "redis", restart_service: :changed
 brew "rustup-init"
 brew "tmux"
 brew "vim"
+brew "wget"
 brew "z"
 brew "zsh"
 brew "zsh-completions"
