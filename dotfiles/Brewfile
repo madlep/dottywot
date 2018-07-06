@@ -14,13 +14,13 @@ mas "Things", id: 904280696
 mas "Tweetbot for Twitter", id: 557168941
 
 cask "bartender"
+cask "caskroom/versions/java8"
 cask "dropbox"
 cask "firefox"
 cask "google-chrome"
 cask "iterm2"
 cask "little-snitch"
 cask "sublime-text"
-cask "caskroom/versions/java8"
 
 cask "caskroom/fonts/font-inconsolata-for-powerline"
 
