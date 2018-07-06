@@ -26,6 +26,7 @@ cask "vlc"
 cask "caskroom/fonts/font-inconsolata-for-powerline"
 
 brew "ag"
+brew "awscli"
 brew "ctags"
 brew "elasticsearch", restart_service: :changed
 brew "erlang"
