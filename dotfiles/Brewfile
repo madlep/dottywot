@@ -27,6 +27,7 @@ cask "caskroom/fonts/font-inconsolata-for-powerline"
 
 brew "ag"
 brew "awscli"
+brew "awk"
 brew "ctags"
 brew "elasticsearch", restart_service: :changed
 brew "erlang"
