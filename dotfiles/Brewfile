@@ -38,6 +38,7 @@ brew "git"
 brew "gpg2"
 brew "heroku"
 brew "httpie"
+brew "http-server"
 brew "hugo"
 brew "postgresql", restart_service: :changed
 brew "pyenv"
