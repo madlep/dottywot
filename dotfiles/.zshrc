@@ -94,6 +94,8 @@ function safe_source()
     fi
 }
 
+safe_source ~/awsvault_aliases.sh
+
 export HOMEBREW_NO_ANALYTICS=1 # because fuck users that's why
 export GIT_EDITOR="vim"
 export EDITOR="vim"
