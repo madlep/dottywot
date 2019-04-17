@@ -1,7 +1,6 @@
 brew "mas"
 
 mas "1Password 7 - Password Manager", id: 1333542190
-mas "Airmail 3", id: 918858936
 mas "Day One", id: 1055511498
 mas "MindNode 5", id: 1289197285
 mas "Monosnap", id: 540348655
