@@ -10,7 +10,6 @@ mas "Pocket", id: 568494494
 mas "Reeder", id: 880001334
 mas "Slack", id: 803453959
 mas "Things", id: 904280696
-mas "Tweetbot for Twitter", id: 557168941
 
 cask "aws-vault"
 cask "bartender"
