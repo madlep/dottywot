@@ -87,6 +87,13 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+function safe_source()
+{
+    if [[ -f $1 ]]; then
+        source $1
+    fi
+}
+
 export HOMEBREW_NO_ANALYTICS=1 # because fuck users that's why
 export GIT_EDITOR="vim"
 export EDITOR="vim"
@@ -97,7 +104,7 @@ if which exenv > /dev/null; then eval "$(exenv init -)"; fi
 if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 if which direnv > /dev/null; then eval "$(direnv hook zsh)"; fi
 export NVM_DIR=~/.nvm
-source $(brew --prefix nvm)/nvm.sh
+safe_source $(brew --prefix nvm)/nvm.sh
 
 alias lah='ls -laFh'
 alias l='ls -laF'
