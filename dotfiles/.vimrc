@@ -52,7 +52,7 @@ NeoBundle 'HerringtonDarkholme/yats.vim'
 filetype plugin indent on
 NeoBundleCheck
 syntax enable
-set background=dark
+set background=light
 colorscheme solarized
 set tabstop=8
 set softtabstop=2
