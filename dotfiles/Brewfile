@@ -41,6 +41,7 @@ brew "heroku"
 brew "httpie"
 brew "http-server"
 brew "hugo"
+brew "jq"
 brew "postgresql", restart_service: :changed
 brew "pyenv"
 brew "nvm"
