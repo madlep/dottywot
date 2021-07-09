@@ -20,7 +20,6 @@ NeoBundle 'rking/ag.vim'
 NeoBundle 'godlygeek/tabular'
 NeoBundle 'tpope/vim-fugitive'
 NeoBundle 'elixir-lang/vim-elixir'
-NeoBundle 'altercation/vim-colors-solarized'
 NeoBundle 'airblade/vim-gitgutter'
 NeoBundle 'bling/vim-airline'
 NeoBundle 'tpope/vim-surround'
@@ -48,12 +47,13 @@ NeoBundle 'mhinz/vim-mix-format'
 NeoBundle 'cespare/vim-toml'
 NeoBundle 'bfontaine/Brewfile.vim'
 NeoBundle 'HerringtonDarkholme/yats.vim'
+NeoBundle 'dracula/vim'
 
 filetype plugin indent on
 NeoBundleCheck
 syntax enable
-set background=light
-colorscheme solarized
+set background=dark
+colorscheme dracula
 set tabstop=8
 set softtabstop=2
 set shiftwidth=2
